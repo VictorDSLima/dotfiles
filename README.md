@@ -1,8 +1,11 @@
 # dotfiles
+
 zsh's dotfile
 
-### .config
+```
+sudo pacman -S zsh neovim eza
+```
 
 ```
-git clone https://github.com/VictorDSLima/dotfiles.git && cp ./dotfiles/* ~/.config/
+git clone https://github.com/VictorDSLima/dotfiles.git && cd ./dotfile && cp -r ./dotfiles/* ~/.config/ && cp ./.zshrc ~/ 
 ```
